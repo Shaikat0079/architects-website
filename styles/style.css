@@ -116,4 +116,16 @@ main{
         .navbar,.nav-links{
             flex-direction: column;
         }
+
+        .team-img-container{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+        .teams{
+            flex-direction: column;
+        }
+
+        .our-features{
+            align-items: center;
+        }
 }
