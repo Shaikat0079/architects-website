@@ -175,6 +175,17 @@ main{
     align-items: center;
     gap: 100px;
     justify-content: center;
+    margin: 40px auto;
+}
+
+#experience-badge{
+    padding: 45px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.featured-architect img{
+    width: 100%;
 }
 /* responsive Media query */
 
@@ -189,11 +200,17 @@ main{
             grid-template-columns: 1fr;
         }
 
-        .teams{
+        .teams,.features{
             flex-direction: column;
         }
 
         .our-features{
             align-items: center;
         }
+
+        #experience-badge{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
 }
