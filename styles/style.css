@@ -87,6 +87,29 @@
     width: 100%;
 }
 
+/* Main section */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams{
+    align-items: center;
+    gap: 80px;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.our-features{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
 /* responsive Media query */
 
 @media screen and (max-width: 576px){
